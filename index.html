@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>NoteStoring App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body styel="height=device-height">
+  <div class="container">
+    <form>
+      <div class="formheading">
+        <h1>Note Storing Website</h1>
+      </div>
+
+      <input type="text" id="name" placeholder="Enter note Title"> </input>
+      <textarea id="noteInput" placeholder="Enter your note here.">   </textarea>
+      <button type="submit" onclick="getText()">Save Note</button>
+    </form>
+    <div class="notesContainer">
+      <div class="formheading">
+        <h1> All the notes </h1>
+
+      </div>
+
+      <div id="notesContainer">
+        <!-- Notes will be dynamically added here -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
